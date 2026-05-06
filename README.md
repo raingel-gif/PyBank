@@ -1,1 +1,27 @@
-# PyBank
+---
+
+# 🧪 Example README for your PyBank project
+
+You can use this as a starter:
+
+:::writing{variant="standard" id="readme1"}
+# PyBank 🏦
+
+A simple Python file-based database system.
+
+## 📌 Features
+- Append values to a file
+- Get stored values
+- Replace existing values
+- Show all stored data
+
+## 🚀 Usage
+
+```python
+from PyBank import PyBank
+
+pb = PyBank()
+
+pb.append('ages.txt', 'Rain', 13)
+print(pb.get_value('ages.txt', 'Rain'))
+pb.show_all('ages.txt')
