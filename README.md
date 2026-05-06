@@ -32,5 +32,3 @@ Copyright (c) 2026 Rain Tolentino
 All rights reserved.
 
 This code may not be copied, modified, distributed, or used without explicit permission.
-print(pb.get_value('ages.txt', 'Rain Tolentino'))
-pb.show_all('ages.txt')
