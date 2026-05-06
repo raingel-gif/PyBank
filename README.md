@@ -22,6 +22,6 @@ from PyBank import PyBank
 
 pb = PyBank()
 
-pb.append('ages.txt', 'Rain', 13)
-print(pb.get_value('ages.txt', 'Rain'))
+pb.append('ages.txt', 'Rain Tolentino', 13)
+print(pb.get_value('ages.txt', 'Rain Tolentino'))
 pb.show_all('ages.txt')
