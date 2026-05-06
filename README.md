@@ -17,6 +17,16 @@ A simple Python file-based database system.
 
 ## 🚀 Usage
 
+```python
+from PyBank import PyBank
+
+pb = PyBank()
+
+pb.append('ages.txt', 'Rain Tolentino', 13)
+print(pb.get_value('ages.txt', 'Rain Tolentino'))
+pb.show_all('ages.txt')
+```
+
 Copyright (c) 2026 Rain Tolentino
 
 All rights reserved.
@@ -24,11 +34,3 @@ All rights reserved.
 This code may not be copied, modified, distributed, or used without explicit permission.
 print(pb.get_value('ages.txt', 'Rain Tolentino'))
 pb.show_all('ages.txt')
-
-
-```python
-from PyBank import PyBank
-
-pb = PyBank()
-
-pb.append('ages.txt', 'Rain Tolentino', 13)
