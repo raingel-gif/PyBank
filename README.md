@@ -1,10 +1,5 @@
 ---
 
-# 🧪 Example README for your PyBank project
-
-You can use this as a starter:
-
-:::writing{variant="standard" id="readme1"}
 # PyBank 🏦
 
 A simple Python file-based database system.
