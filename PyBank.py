@@ -1,5 +1,9 @@
 class PyBank:
 
+    def clear(self, file_name: str):
+        with open(file_name, 'w') as f:
+            f.write("")
+
     def append(self, file_name: str, variable_name: str, variable_value):
         with open(file_name, 'a') as f:
             f.write(f'{variable_name}: {variable_value}\n')
